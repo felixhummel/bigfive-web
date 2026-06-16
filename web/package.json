@@ -65,6 +65,9 @@
     "tailwindcss": "3.4.3",
     "zod": "3.23.4"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": ["contentlayer", "esbuild", "protobufjs"]
+  },
   "devDependencies": {
     "@types/canvas-confetti": "1.6.4",
     "@types/node": "20.12.7",
